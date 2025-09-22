@@ -1,4 +1,5 @@
 import React from 'react'
+// import service from "../../assets/service1.png";
 
 const Service = () => {
   return (
@@ -13,15 +14,15 @@ const Service = () => {
                </div>
             </div>
             <div className='w-[50%]'>
-               <div className='z-[1] relative bg-[url(./assets/service.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px]'
+               <div className='z-[1] relative bg-[url(./assets/service1.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px]'
   >
     <div className='z-[-1] absolute top-0 left-0 w-full h-full bg-black/60 '>{" "}
     </div> 
   <div className='ml-[116px]'>
-    <h1 className=' font-primary text-[36px] font-bold text-white'>Modern natural oil and gas refineries..{" "}
+    <h1 className=' font-primary text-[36px] font-bold  text-white'>Modern natural oil and gas refineries.{" "}
 
   </h1>
-  <button className='py-[13px] px-[40px] bg-[#F40404] text -white font-semibold mt-[31px]'>LEARN MORE</button>
+  <button className='py-[13px] px-[40px] bg-[#F40404]  text -white font-semibold mt-[31px]'>LEARN MORE</button>
   </div>
  
     
@@ -31,12 +32,12 @@ const Service = () => {
         </div>
         <div className='flex'>
                      <div className='w-[50%]'>
-               <div className='z-[1] relative bg-[url(./assets/service.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px]'
+               <div className='z-[1] relative bg-[url(./assets/service2.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px]'
   >
     <div className='z-[-1] absolute top-0 left-0 w-full h-full bg-black/60 '>{" "}
     </div> 
   <div className='ml-[116px]'>
-    <h1 className=' font-primary text-[36px] font-bold text-white'>Modern natural oil and gas refineries..{" "}
+    <h1 className=' font-primary text-[36px] font-bold text-white'>Supply of national industries.{" "}
 
   </h1>
   <button className='py-[13px] px-[40px] bg-[#F40404] text -white font-semibold mt-[31px]'>LEARN MORE</button>
@@ -47,12 +48,12 @@ const Service = () => {
   </div> 
             </div>
                      <div className='w-[50%]'>
-               <div className='z-[1] relative bg-[url(./assets/service.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px]'
+               <div className='z-[1] relative bg-[url(./assets/service3.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px]'
   >
     <div className='z-[-1] absolute top-0 left-0 w-full h-full bg-black/60 '>{" "}
     </div> 
   <div className='ml-[116px]'>
-    <h1 className=' font-primary text-[36px] font-bold text-white'>Modern natural oil and gas refineries..{" "}
+    <h1 className=' font-primary text-[36px] font-bold text-white'>National fuel distribution and supply.{" "}
 
   </h1>
   <button className='py-[13px] px-[40px] bg-[#F40404] text -white font-semibold mt-[31px]'>LEARN MORE</button>
