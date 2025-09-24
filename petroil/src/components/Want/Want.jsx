@@ -1,6 +1,6 @@
-import React from 'react'
+
 import Container from '../Layouts/Container'
-import logo from"../../assets/logo.png"
+// import logo from"../../assets/logo.png"
 import Flex from '../Layouts/Flex'
 const Navbar = () => {
   return <div className='bg-[#F40404] py-[30px]'>

@@ -5,13 +5,7 @@ import sliderFour from "../../assets/sliderFour.png";
 import Flex from "../Layouts/Flex";
 
 
-const Slider = () => {var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+const Slider = () => {
   return (
     <Flex className="justify-between gap-x-[5px] ">
       
