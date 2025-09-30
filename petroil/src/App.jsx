@@ -6,10 +6,10 @@ import Supplier from "./components/Supplier/Supplier"
 import ImageSlider from "./components/Slider/ImageSlider"
 import Service from "./components/Service/Service"
 import Company from "./components/Company/Company"
-
-
+import Logo from "./components/Logo/Logo"
+import Lorem from "./components/Lorem/Lorem"
 import Map from "./components/Map/Map"
-import Want from "./components/Want/Want"
+// import Want from "./components/Want/Want"
 function App() {
   
 
@@ -23,8 +23,10 @@ function App() {
 {/* <Slider/> */}
 <Service/>
 <Company/>
+<Logo/>
+<Lorem/>
 <Map/>
-<Want/>
+{/* <Want/> */}
 
 </>  )
 }

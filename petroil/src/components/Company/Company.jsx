@@ -9,17 +9,18 @@ const Company = () => {
         
 
 
-        <div className="flex justify-between">
-          <div className="bg-red-500 w-[413px] h-[361px] flex items-center justify-center p-[35px]">
-            <h2 className="font-primary text-[36px] font-bold text-white text-center">
+        <div className="flex">
+          <div className="bg-[#F40404] w-full text-center h-full text-white font-poppins font-bold md:text-[36px]">
+            <h4 className="md:w-[262px] md:text-center py-[20px] md:py-[100px] md:ml-[74px]">
               Learn more about our company.
-            </h2>
+            </h4>
           </div>
           <div>
-            
-            <div className='relative bg-[url(".")] py-[50px] px-[100px] md:py-[132px] md:px-[282px] w-fit md:w-full bg-no-repeat bg-cover'>
-           <img src={company} alt="" />
-        </div>
+            <div className=" relative py-[50px]  md:py-[132px] md:px-[282px] w-full md:w-full bg-no-repeat bg-cover ">
+            <button className=" bg-white font-bold transition duration-500  flex m-auto px-[20px] md:py-3 py-2  ">
+              LEARN MORE
+            </button>
+          </div>
           </div>
         </div>
        </Container>
